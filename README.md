@@ -1,6 +1,6 @@
 # React To-Do List
 ## View Live Demo
-A live demo of this application can be found at: https://404found2.github.io/react-todo-list/
+A live demo of this application can be found at: [link](https://404found2.github.io/react-todo-list/){:target="_blank"}
 ## Inspiration and What It Does 
 This is my first react project, and thus its simplicity. I wanted to explore react hooks and state to solve a real-world problem (organizing tasks). This is a simple react app that allows users to add and delete tasks, saving changes by storing data via local starage.
 
