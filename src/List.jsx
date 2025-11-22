@@ -28,7 +28,7 @@ function List({tasks, add, up, remove}) {
    return (
         <div className="bar">
             { tasks.map(item => (<label key={item.val.trim()}><span><input type="checkbox" onChange={changed} id={item.val} defaultChecked={item.marked} /><span>{item.val}</span></span><button onClick={deleted} className="danger">Delete</button> </label>) )}
-            <label> <input type="checkbox" disabled /> <input onKeyDown={checkSubmit} id="next" placeholder="Type in Task and press enter to update! Ex. Doing Dishes"/> </label>
+            <label> <input type="checkbox" disabled /> <input onKeyDown={checkSubmit} id="next" placeholder="Type in task and press enter to update. (Ex. Doing Dishes)"/> </label>
         </div>
     )
 }
