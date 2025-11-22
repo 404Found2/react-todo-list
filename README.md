@@ -1,16 +1,20 @@
-# React + Vite
+# React To-Do List
+##View Live Demo
+A live demo of this application can be found at: https://404found2.github.io/react-todo-list/
+## Inspiration and What It Does 
+This is my first react project, and thus its simplicity. I wanted to explore react hooks and state to solve a real-world problem (organizing tasks). This is a simple react app that allows users to add and delete tasks, saving changes by storing data via local starage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How I Built it
+This is a simple react app that allows users to add and delete tasks. The main language used to develop this app was React as well as CSS for styling.
 
-Currently, two official plugins are available:
+## Challenges I ran into
+Some of the challenges we ran into:
+- Managing state across different elements: the parent container mantained the state and passed functions as props so child containers can update state accordingly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Accomplishments that I'm proud of/Key Features
+- Use of localhost to save user data between page refreshes
+- Ensuring State Immutability and Identical updates of States and Localhost
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What's next?
+I would like to integrate bootstrap into future projects, allowing for faster designing and an increased importance core react components!
+I would also like to create a more complex, usable project, harnessing these newly learned skills.
