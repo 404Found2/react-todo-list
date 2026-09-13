@@ -1,5 +1,5 @@
 # React To-Do List
-> Note: This project does not use ANY AI. This was meant to be a simple learning experience and explore react state, localhost storage, and react hooks.
+> Note: This project does not use ANY AI generated code. This was meant to be a simple learning experience and explore react state, localhost storage, and react hooks.
 
 ## View Live Demo
 A live demo of this application can be found at: https://404found2.github.io/react-todo-list/
